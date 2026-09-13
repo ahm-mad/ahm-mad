@@ -2,7 +2,7 @@
 
 Senior full-stack engineer building production-grade web applications end to end — architecture, AI-powered features, and deployment.
 
-[X+ years experience] · Sahiwal, Pakistan · [Upwork profile — 100% Job Success / Top Rated, if applicable]
+3+ years experience · Sahiwal, Pakistan
 
 ## Stack
 
@@ -32,5 +32,4 @@ Built from scratch: a full-stack IoT platform for device telemetry, automated bu
 
 - 🌐 Portfolio — [ADD YOUR PORTFOLIO SITE LINK]
 - 💼 Upwork — [ADD YOUR UPWORK PROFILE LINK]
-- 💬 LinkedIn — [ADD YOUR LINKEDIN LINK — or delete this line]
-- ✉️ Email — [ADD YOUR PUBLIC CONTACT EMAIL — or delete this line]
+- ✉️ Email — [mh272720@gmail.com](mailto:mh272720@gmail.com)
