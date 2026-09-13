@@ -1,8 +1,8 @@
-# Hi, I'm [Your Name]
+# Hi, I'm Muhammad Ahmad
 
 Senior full-stack engineer building production-grade web applications end to end — architecture, AI-powered features, and deployment.
 
-[X+ years experience] · [Your Location] · [Upwork profile — 100% Job Success / Top Rated, if applicable]
+[X+ years experience] · Sahiwal, Pakistan · [Upwork profile — 100% Job Success / Top Rated, if applicable]
 
 ## Stack
 
