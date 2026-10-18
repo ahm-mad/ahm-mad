@@ -1,6 +1,6 @@
 # Hi, I'm Muhammad Ahmad
 
-Senior Fullstack AI Engineer building pixel-perfect, production-grade web applications end to end — design, architecture, generative AI & LLM integration, and deployment.
+Senior Fullstack AI Engineer building pixel-perfect, production-grade web applications end to end — architecture, generative AI & LLM integration, design, and deployment.
 
 3+ years experience · Sahiwal, Pakistan
 
@@ -10,9 +10,9 @@ Senior Fullstack AI Engineer building pixel-perfect, production-grade web applic
 
 ## What I do
 
+- **Full-stack product engineering** — Next.js (App Router, Server Components/Actions), TypeScript, Supabase/PostgreSQL, and the MERN stack (MongoDB, Express, React, Node.js).
 - **Generative AI & LLM integration** — production LLM API integration (OpenRouter), natural-language-to-query pipelines grounded in live data, Retrieval-Augmented Generation (RAG), vector search with `pgvector`, and token-cost/latency optimization for real AI features, not demos.
 - **Pixel-perfect UI/UX** — enterprise-grade design systems built on design tokens (not default component-library styling), full dark/light theming, and WCAG AA accessibility — interfaces built to put in front of a client's own customers, not just functional.
-- **Full-stack product engineering** — Next.js (App Router, Server Components/Actions), TypeScript, Supabase/PostgreSQL, and the MERN stack (MongoDB, Express, React, Node.js).
 - **DevOps & deployment** — Docker-containerized deployments, CI/CD, taking projects from local development to live production end to end.
 
 ## Featured projects
