@@ -24,10 +24,10 @@ Senior Fullstack AI Engineer building pixel-perfect, production-grade web applic
 A full-stack IoT platform for device telemetry, automated buildings, marina/boat fleet management, CRM, and Stripe billing, on Next.js 16 + Supabase — built and run as a live production system, not a demo.
 
 - **Predictive risk intelligence** — risk engines forecast *forward* (days-to-threshold per device from real sensor trend history), plus aggregate trend-mining across the whole fleet's telemetry history; applied predictive modeling, not a chat or generative feature
-- **118-table Postgres schema**, fully typed end to end (generated types, zero hand-maintained drift)
+- **118-table Postgres schema** — fully typed end to end (generated types, zero hand-maintained drift)
 - **140 Row-Level Security policies** — the database enforces authorization, not the app
-- **~127K telemetry readings/day** on the live instance, on a tiered time-series pipeline (hot → 1-min → 15-min rollups, 11.9M+ rollups pre-aggregated), monthly-partitioned and `pg_cron`-automated for 10M+ rows without degradation
-- Real LoRaWAN packet decoding, an alert/notification engine, and a full Stripe billing integration
+- **~127K telemetry readings/day** — on the live instance, via a tiered time-series pipeline (hot → 1-min → 15-min rollups, 11.9M+ rollups pre-aggregated), monthly-partitioned and `pg_cron`-automated for 10M+ rows without degradation
+- **Real protocol decoding** — raw LoRaWAN packets, an alert/notification engine, and a full Stripe billing integration
 - **Polished, consistent UI across 20+ distinct product surfaces** — dashboards, diagnostics, billing, and admin all in one coherent dark/light-themed design, not a patchwork of screens bolted together
 
 → [Full write-up, architecture diagrams, and schema](https://github.com/ahm-mad/AssetGrid#readme)
@@ -40,8 +40,8 @@ A fleet operations platform built around a **dedicated LLM copilot**, not a chat
 
 - **LLM-powered copilot** (Python/FastAPI microservice via OpenRouter) — interprets a natural-language question, grounds it in live fleet data, and streams back a synthesized answer, plus a forecasting layer (maintenance due, fuel-spend projection, driver risk scoring)
 - **Database-enforced, multi-tenant RBAC** — permissions live in the data layer, not scattered through app code
-- **Live 3D fleet map**, dispatch, CRM & billing, fuel/maintenance/compliance tracking in one workspace
-- **TimescaleDB** hypertables for the fleet's time-series telemetry
+- **Live 3D fleet map** — dispatch, CRM & billing, fuel/maintenance/compliance tracking, all in one workspace
+- **TimescaleDB** — hypertables for the fleet's time-series telemetry
 - **Four independent processes from one codebase** — HTTP API, realtime ingestion, scheduler, and a BullMQ background worker, so a long-running job never blocks a request
 - **Enterprise-grade, WCAG AA UI** — a token-based design system across dark and light themes, so the live 3D map, dashboards, and billing all feel like one cohesive product, not stitched-together pages
 
