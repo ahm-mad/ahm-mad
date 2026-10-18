@@ -6,7 +6,7 @@ Senior Fullstack AI Engineer building production-grade web applications end to e
 
 ## Stack
 
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Generative AI](https://img.shields.io/badge/Generative%20AI-LLM%20integration-5B5BE6) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Generative AI](https://img.shields.io/badge/Generative%20AI-5B5BE6) ![LLM Integration](https://img.shields.io/badge/LLM%20Integration-5B5BE6) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
 ## What I do
 
@@ -15,20 +15,6 @@ Senior Fullstack AI Engineer building production-grade web applications end to e
 - **DevOps & deployment** — Docker-containerized deployments, CI/CD, taking projects from local development to live production end to end.
 
 ## Featured projects
-
-### [ConvoyAI](https://github.com/ahm-mad/ConvoyAI) — enterprise fleet management with a generative AI copilot
-
-<p align="center"><img src="https://raw.githubusercontent.com/ahm-mad/ConvoyAI/main/docs/screenshots/fleet-map.png" alt="ConvoyAI live 3D fleet map" width="100%" /></p>
-
-A fleet operations platform built around a **dedicated LLM copilot**, not a chatbot bolted onto a CRUD API — a fleet manager asks a plain-English question about their own fleet data and gets back real numbers, charts and a drafted action plan.
-
-- **LLM-powered copilot** (Python/FastAPI microservice via OpenRouter) — interprets a natural-language question, grounds it in live fleet data, and streams back a synthesized answer, plus a forecasting layer (maintenance due, fuel-spend projection, driver risk scoring)
-- **Database-enforced, multi-tenant RBAC** — permissions live in the data layer, not scattered through app code
-- **Live 3D fleet map**, dispatch, CRM & billing, fuel/maintenance/compliance tracking in one workspace
-- **TimescaleDB** hypertables for the fleet's time-series telemetry
-- **Four independent processes from one codebase** — HTTP API, realtime ingestion, scheduler, and a BullMQ background worker, so a long-running job never blocks a request
-
-→ [Full write-up, architecture diagrams, and the copilot's own request flow](https://github.com/ahm-mad/ConvoyAI#readme)
 
 ### [AssetGrid](https://github.com/ahm-mad/AssetGrid) — IoT asset management at enterprise scale
 
@@ -43,6 +29,20 @@ A full-stack IoT platform for device telemetry, automated buildings, marina/boat
 - Real LoRaWAN packet decoding, an alert/notification engine, and a full Stripe billing integration
 
 → [Full write-up, architecture diagrams, and schema](https://github.com/ahm-mad/AssetGrid#readme)
+
+### [ConvoyAI](https://github.com/ahm-mad/ConvoyAI) — enterprise fleet management with a generative AI copilot
+
+<p align="center"><img src="https://raw.githubusercontent.com/ahm-mad/ConvoyAI/main/docs/screenshots/fleet-map.png" alt="ConvoyAI live 3D fleet map" width="100%" /></p>
+
+A fleet operations platform built around a **dedicated LLM copilot**, not a chatbot bolted onto a CRUD API — a fleet manager asks a plain-English question about their own fleet data and gets back real numbers, charts and a drafted action plan.
+
+- **LLM-powered copilot** (Python/FastAPI microservice via OpenRouter) — interprets a natural-language question, grounds it in live fleet data, and streams back a synthesized answer, plus a forecasting layer (maintenance due, fuel-spend projection, driver risk scoring)
+- **Database-enforced, multi-tenant RBAC** — permissions live in the data layer, not scattered through app code
+- **Live 3D fleet map**, dispatch, CRM & billing, fuel/maintenance/compliance tracking in one workspace
+- **TimescaleDB** hypertables for the fleet's time-series telemetry
+- **Four independent processes from one codebase** — HTTP API, realtime ingestion, scheduler, and a BullMQ background worker, so a long-running job never blocks a request
+
+→ [Full write-up, architecture diagrams, and the copilot's own request flow](https://github.com/ahm-mad/ConvoyAI#readme)
 
 ## Links
 
