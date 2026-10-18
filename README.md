@@ -6,7 +6,7 @@ Senior Fullstack AI Engineer building production-grade web applications end to e
 
 ## Stack
 
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Generative AI](https://img.shields.io/badge/Generative%20AI-5B5BE6) ![LLM Integration](https://img.shields.io/badge/LLM%20Integration-5B5BE6) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Generative AI](https://img.shields.io/badge/Generative%20AI-5B5BE6) ![LLM Integration](https://img.shields.io/badge/LLM%20Integration-5B5BE6) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
 ## What I do
 
@@ -32,7 +32,7 @@ A full-stack IoT platform for device telemetry, automated buildings, marina/boat
 
 ### [ConvoyAI](https://github.com/ahm-mad/ConvoyAI) — enterprise fleet management with a generative AI copilot
 
-<p align="center"><img src="https://raw.githubusercontent.com/ahm-mad/ConvoyAI/main/docs/screenshots/fleet-map.png" alt="ConvoyAI live 3D fleet map" width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ahm-mad/ConvoyAI/main/docs/screenshots/ai-copilot.png" alt="ConvoyAI generative AI copilot answering a plain-English fleet question" width="100%" /></p>
 
 A fleet operations platform built around a **dedicated LLM copilot**, not a chatbot bolted onto a CRUD API — a fleet manager asks a plain-English question about their own fleet data and gets back real numbers, charts and a drafted action plan.
 
@@ -46,5 +46,5 @@ A fleet operations platform built around a **dedicated LLM copilot**, not a chat
 
 ## Links
 
-- 🌐 Portfolio — [ADD YOUR PORTFOLIO SITE LINK]
-- 💼 Upwork — [ADD YOUR UPWORK PROFILE LINK]
+- 🌐 Portfolio — launching soon
+- 💼 Upwork — profile link coming soon
