@@ -1,6 +1,6 @@
 # Hi, I'm Muhammad Ahmad
 
-Senior Fullstack AI Engineer building production-grade web applications end to end — architecture, generative AI & LLM integration, and deployment.
+Senior Fullstack AI Engineer building pixel-perfect, production-grade web applications end to end — design, architecture, generative AI & LLM integration, and deployment.
 
 3+ years experience · Sahiwal, Pakistan
 
@@ -11,6 +11,7 @@ Senior Fullstack AI Engineer building production-grade web applications end to e
 ## What I do
 
 - **Generative AI & LLM integration** — production LLM API integration (OpenRouter), natural-language-to-query pipelines grounded in live data, Retrieval-Augmented Generation (RAG), vector search with `pgvector`, and token-cost/latency optimization for real AI features, not demos.
+- **Pixel-perfect UI/UX** — enterprise-grade design systems built on design tokens (not default component-library styling), full dark/light theming, and WCAG AA accessibility — interfaces built to put in front of a client's own customers, not just functional.
 - **Full-stack product engineering** — Next.js (App Router, Server Components/Actions), TypeScript, Supabase/PostgreSQL, and the MERN stack (MongoDB, Express, React, Node.js).
 - **DevOps & deployment** — Docker-containerized deployments, CI/CD, taking projects from local development to live production end to end.
 
@@ -27,6 +28,7 @@ A full-stack IoT platform for device telemetry, automated buildings, marina/boat
 - **140 Row-Level Security policies** — the database enforces authorization, not the app
 - **~127K telemetry readings/day** on the live instance, on a tiered time-series pipeline (hot → 1-min → 15-min rollups, 11.9M+ rollups pre-aggregated), monthly-partitioned and `pg_cron`-automated for 10M+ rows without degradation
 - Real LoRaWAN packet decoding, an alert/notification engine, and a full Stripe billing integration
+- **Polished, consistent UI across 20+ distinct product surfaces** — dashboards, diagnostics, billing, and admin all in one coherent dark/light-themed design, not a patchwork of screens bolted together
 
 → [Full write-up, architecture diagrams, and schema](https://github.com/ahm-mad/AssetGrid#readme)
 
@@ -41,6 +43,7 @@ A fleet operations platform built around a **dedicated LLM copilot**, not a chat
 - **Live 3D fleet map**, dispatch, CRM & billing, fuel/maintenance/compliance tracking in one workspace
 - **TimescaleDB** hypertables for the fleet's time-series telemetry
 - **Four independent processes from one codebase** — HTTP API, realtime ingestion, scheduler, and a BullMQ background worker, so a long-running job never blocks a request
+- **Enterprise-grade, WCAG AA UI** — a token-based design system across dark and light themes, so the live 3D map, dashboards, and billing all feel like one cohesive product, not stitched-together pages
 
 → [Full write-up, architecture diagrams, and the copilot's own request flow](https://github.com/ahm-mad/ConvoyAI#readme)
 
