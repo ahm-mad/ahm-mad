@@ -55,5 +55,5 @@ A fleet operations platform built solo from scratch and used in production by re
 
 ## Links
 
-- 🌐 Portfolio — launching soon
+- 🌐 [Portfolio](https://muhammad-ahmad-engineer.vercel.app)
 - 💼 [Upwork](https://www.upwork.com/freelancers/~0178f5d6c7d0374cdf)
