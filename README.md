@@ -1,8 +1,10 @@
 # Hi, I'm Muhammad Ahmad
 
-Senior Fullstack AI Engineer building pixel-perfect, production-grade web and mobile products end to end — architecture, design and deployment — with generative AI & LLM integration as my specialty.
+Senior Fullstack AI Engineer. I build pixel-perfect, production-grade web and mobile products end to end, from architecture to deployment, with generative AI & LLM integration (RAG, vector embeddings, `pgvector`) where it counts.
 
 3+ years experience · Pakistan · flexible overlap with US & EU hours
+
+**Open to new projects:** fullstack builds, generative AI and LLM features, IoT and data platforms, React Native apps, or taking over an existing codebase. The fastest way to start is a message on [Upwork](https://www.upwork.com/freelancers/~0178f5d6c7d0374cdf).
 
 ## Stack
 
@@ -24,6 +26,8 @@ Senior Fullstack AI Engineer building pixel-perfect, production-grade web and mo
 
 A full-stack IoT platform for device telemetry, automated buildings, marina/boat fleet management, CRM, and Stripe billing, on Next.js 16 + Supabase — built solo from scratch and run as a live production system used by real operators (the repo and screenshots use synthetic data).
 
+**Outcome:** continuous monitoring with early warnings replaces manual checks. In one case an overheating alert reached the facility manager minutes before it became dangerous, and a fire was prevented.
+
 - **Predictive risk intelligence** — risk engines forecast *forward* (days-to-threshold per device from real sensor trend history), plus aggregate trend-mining across the whole fleet's telemetry history; applied predictive modeling, not a chat or generative feature
 - **118-table Postgres schema** — fully typed end to end (generated types, zero hand-maintained drift)
 - **140 Row-Level Security policies** — the database enforces authorization, not the app
@@ -37,7 +41,9 @@ A full-stack IoT platform for device telemetry, automated buildings, marina/boat
 
 <p align="center"><img src="https://raw.githubusercontent.com/ahm-mad/ConvoyAI/main/docs/screenshots/ai-copilot.png" alt="ConvoyAI generative AI copilot answering a plain-English fleet question" width="100%" /></p>
 
-A fleet operations platform built solo from scratch and used in production by real fleet operators, centred on a **dedicated LLM copilot**, not a chatbot bolted onto a CRUD API — a fleet manager asks a plain-English question about their own fleet data and gets back real numbers, charts and a drafted action plan.
+A fleet operations platform built solo from scratch and used in production by real fleet operators (this is the public showcase edition, with synthetic data), centred on a **dedicated LLM copilot**, not a chatbot bolted onto a CRUD API — a fleet manager asks a plain-English question about their own fleet data and gets back real numbers, charts and a drafted action plan.
+
+**Outcome:** fleet managers get answers in seconds instead of waiting on an analyst.
 
 - **LLM-powered copilot** (Python/FastAPI microservice via OpenRouter) — interprets a natural-language question, grounds it in live fleet data, and streams back a synthesized answer, plus a forecasting layer (maintenance due, fuel-spend projection, driver risk scoring)
 - **Database-enforced, multi-tenant RBAC** — permissions live in the data layer, not scattered through app code
