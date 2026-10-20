@@ -2,7 +2,7 @@
 
 Senior Fullstack AI Engineer building pixel-perfect, production-grade web and mobile products end to end — architecture, design and deployment — with generative AI & LLM integration as my specialty.
 
-3+ years experience · Sahiwal, Pakistan
+3+ years experience · Pakistan · flexible overlap with US & EU hours
 
 ## Stack
 
